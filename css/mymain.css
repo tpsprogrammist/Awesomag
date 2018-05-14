@@ -457,6 +457,7 @@ font-family: "Verdana";
 			
 .newsletter__email-field{
 	position: relative;
+	border: 0.1;
 }
 
 .input__newsletter-footer{
@@ -466,8 +467,13 @@ font-family: "Verdana";
 	border: 0.001;
 	border-width: 0.001;
 	/*border-*/
-	border-color: black;
+	/*border-color: black;*/
 	padding-left: 10px;
+
+	font-size: 11px;
+	line-height: 15px;
+	color: rgb(113,113,113);
+	font-family: "Verdana";
 }
 
 
