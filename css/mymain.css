@@ -377,6 +377,7 @@ font-family: "Verdana";
 .column-one{
 	display: inline-block;
 	width: 50%;
+	float: left;
 }
 
 .column-two{
@@ -385,6 +386,7 @@ font-family: "Verdana";
 }
 
 .categs_link{
+	display: block;
 	font-size: 11px;
 	line-height: 24px;
 	color: rgb(113,113,113);
@@ -394,6 +396,18 @@ font-family: "Verdana";
 .footer__social{
 	display: inline-block;
 	width: 25%;
+}
+
+.soc-col1{
+	display: inline-block;
+}
+
+.soc-col2{
+	display: inline-block;
+}
+
+.soc-col3{
+	display: inline-block;
 }
 
 .social__title{
@@ -410,6 +424,8 @@ font-family: "Verdana";
 }
 
 .social__item{
+	/*display: inline-block;*/
+	display: block;
 }
 
 .social__link{
@@ -431,15 +447,37 @@ font-family: "Verdana";
 			
 
 .newsletter__text{
+	font-size: 11px;
+	line-height: 15px;
+	color: rgb(113,113,113);
+	font-family: "Verdana";
+	margin-bottom: 20px;
+
 }
 			
 .newsletter__email-field{
+	position: relative;
 }
 
 .input__newsletter-footer{
+	width: 170px;
+	height: 27px;
+	background-color: #e7e7e7;
+	border: 0.001;
+	border-width: 0.001;
+	/*border-*/
+	border-color: black;
+	padding-left: 10px;
 }
 
+
 .arrow__footer{
+	position: absolute;
+	top: 5px;
+	left: 160px;
+	width: 9px;
+	height: 13px;
+	background-color: #717171;
 }
 
 .footer__about{
@@ -457,4 +495,8 @@ font-family: "Verdana";
 }
 
 .footer__about-text{
+	font-size: 11px;
+	line-height: 15px;
+	color: rgb(113,113,113);
+	font-family: "Verdana";
 }
