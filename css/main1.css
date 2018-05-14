@@ -1,0 +1,50 @@
+/*Padding ходит в расчет всех размеров*/
+
+*{
+	box-sizing: border-box;
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.clearfix:before, .clearfix:after{
+	display:table;
+	clear:both;
+	content:" ";
+}
+
+.header__topmenu:before{
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	content: "";
+}
+
+.aboutmenu{
+	width: 50%;
+	float:left;
+}
+.login{
+	width: 50%;
+	float: right;
+	text-align:right;
+}
+
+
+.about__item{
+	display:inline-block;
+}
+	
+.about__link	{
+	display:inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #dddddd;
+	font-size:20px;
+	transition:0.6s;
+}
+
+

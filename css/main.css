@@ -1,0 +1,64 @@
+body{
+	font-family: Verdana;
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.header__topmenu{
+	font-size: 0;
+	width: 960px;
+	height: 20px;
+	background-color: #dddddd; 
+}
+
+.aboutmenu{
+	display: inline-block;
+	width: 50%;
+}
+
+.aboutmenu__list{
+	font-size:0;
+}
+
+.about__item{
+	display:inline-block;
+}
+	
+.about__link{
+	display:inline-block;
+/*	padding-top: 20px;
+	padding-bottom: 20px;
+*/	background-color: #dddddd;
+	transition:0.6s;
+	font-size: 10px;
+	color: rgb(113,113,113);
+	font-family: "Verdana";
+}
+.about__link:hover{
+	background-color: transparent;
+	transition:0.6s;
+}
+
+
+.login{
+	display: inline-block;
+	width:50%;
+	font-size: 0;
+	text-align: right;
+}
+
+.login__link{
+	font-size: 20px 
+}
+
+
+
+/*Padding ходит в расчет всех размеров*/
+
+*{
+	box-sizing: border-box;
+}
