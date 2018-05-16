@@ -1,3 +1,4 @@
+/*Изменялки*/
 *{
 	font-family: Verdana;
 }
@@ -103,10 +104,6 @@ body{
 	background-color: #ebebeb;
 	float: right;
 }
-.advert_img{
-
-}
-
 .header__nav{
 	background-color: lightgrey;
 }
